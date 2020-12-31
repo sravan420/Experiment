@@ -30,9 +30,11 @@ public class FlatmapDemo {
         System.out.println(str.orElse("entered valued found is empty"));
 
 
-        int a[]={1,2,4,6,3,2};
+        int a[]={1,2,3,2,8};
         OptionalInt min= IntStream.of(a).min();
+        System.out.println(min);
         OptionalInt max= IntStream.of(a).max();
+        System.out.println(max);
         System.out.println(min.orElse(0));
         System.out.println(max.getAsInt());
         
