@@ -73,7 +73,6 @@ public class FlatmapDemo {
         int maxarray[]={94,48,75,89};
         OptionalInt maximum= IntStream.of(maxarray).max();
         System.out.println("Local changes:" + maximum);
-
         
         
         System.out.println("**********GITHUBREBASE**********");
