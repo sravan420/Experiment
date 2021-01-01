@@ -42,6 +42,10 @@ public class FlatmapDemo {
         OptionalInt minim= IntStream.of(changedarray).min();
         System.out.println(min);
         
+         int maxarray[]={94,48,75,89};
+        OptionalInt maximum= IntStream.of(maxarray).max();
+        System.out.println(maximum);
+        
         System.out.println("hey add some changes for rebase from github");
          System.out.println("hey adding some changes for rebase from github");
 
