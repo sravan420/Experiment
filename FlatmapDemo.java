@@ -37,16 +37,26 @@ public class FlatmapDemo {
         System.out.println(max);
         System.out.println(min.orElse(0));
         System.out.println(max.getAsInt());
+
+
+        System.out.println("**********local changes");
+        int changedarray[]={100,200};
+        OptionalInt minim= IntStream.of(changedarray).min();
+        System.out.println("Local changes:" + minim);
+
+        int maxarray[]={94,48,75,89};
+        OptionalInt maximum= IntStream.of(maxarray).max();
+        System.out.println("Local changes:" + maximum);
         
         
-        System.out.println("**********GITHUBREBASE**********);
+        System.out.println("**********GITHUBREBASE**********");
         int changedarray[]={100,300,400};
         OptionalInt minim= IntStream.of(changedarray).min();
         System.out.println(min);
         
-        int maxarray[]={94,48,75,89};
-        OptionalInt maximum= IntStream.of(maxarray).max();
-        System.out.println(maximum);
+        int maxarray1[]={94,48,75,89};
+        OptionalInt maximum1= IntStream.of(maxarray1).max();
+        System.out.println(maximum1);
         
        
         
