@@ -38,6 +38,16 @@ public class FlatmapDemo {
         System.out.println(min.orElse(0));
         System.out.println(max.getAsInt());
         
+        
+        System.out.println("**********GITHUBREBASE**********);
+        int changedarray[]={100,300,400};
+        OptionalInt minim= IntStream.of(changedarray).min();
+        System.out.println(min);
+        
+        int maxarray[]={94,48,75,89};
+        OptionalInt maximum= IntStream.of(maxarray).max();
+        System.out.println(maximum);
+        
        
         
         System.out.println("hey add some changes for rebase from github");
