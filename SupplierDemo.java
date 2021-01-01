@@ -38,5 +38,10 @@ public class SupplierDemo {
         System.out.println(s2.get());
 
         System.out.println("Supplier first change");
+        System.out.println("Supplier second change");
+        System.out.println("Supplier third change");
+        System.out.println("Supplier fourth change");
+        System.out.println("Supplier fith change");
+        System.out.println("Supplier sixth change");
     }
 }
