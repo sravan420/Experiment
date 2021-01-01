@@ -36,5 +36,7 @@ public class SupplierDemo {
             return l.indexOf(x);
         };
         System.out.println(s2.get());
+
+        System.out.println("Supplier first change");
     }
 }
