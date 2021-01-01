@@ -59,29 +59,7 @@ public class FlatmapDemo {
         System.out.println(maximum1);
         
        
-        
-        System.out.println("hey add some changes for rebase from github");
-         System.out.println("hey adding some changes for rebase from github");
-
-
-        
-        System.out.println("**********local changes");
-        int changedarray[]={100,200};
-        OptionalInt minim= IntStream.of(changedarray).min();
-        System.out.println("Local changes:" + minim);
-
-
-        
-        
-
-        
-
-       
-        
-        System.out.println("hey add some changes for rebase from github");
-         System.out.println("hey adding some changes for rebase from github");
-
-        System.out.println("hey added some for rebase from local");
+     System.out.println("only final changes");
 
         students.stream().sorted(Comparator.comparingInt(Student::getRollno).reversed()).limit(3).map(st->st.getName()).forEach(System.out::println);
 
