@@ -70,12 +70,10 @@ public class FlatmapDemo {
         OptionalInt minim= IntStream.of(changedarray).min();
         System.out.println("Local changes:" + minim);
 
-        int maxarray[]={94,48,75,89};
-        OptionalInt maximum= IntStream.of(maxarray).max();
-        System.out.println("Local changes:" + maximum);
+
         
         
-       
+
         
 
        
