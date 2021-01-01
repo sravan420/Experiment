@@ -75,12 +75,9 @@ public class FlatmapDemo {
         System.out.println("Local changes:" + maximum);
         
         
-        System.out.println("**********GITHUBREBASE**********");
-        int changedarray1[]={100,300,400};
-        OptionalInt minim1= IntStream.of(changedarray1).min();
-        System.out.println(minim1);
+       
         
-     
+
        
         
         System.out.println("hey add some changes for rebase from github");
