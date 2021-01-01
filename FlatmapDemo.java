@@ -50,9 +50,9 @@ public class FlatmapDemo {
         
         
         System.out.println("**********GITHUBREBASE**********");
-        int changedarray[]={100,300,400};
-        OptionalInt minim= IntStream.of(changedarray).min();
-        System.out.println(min);
+        int changedarray1[]={100,300,400};
+        OptionalInt minim1= IntStream.of(changedarray1).min();
+        System.out.println(minim1);
         
         int maxarray1[]={94,48,75,89};
         OptionalInt maximum1= IntStream.of(maxarray1).max();
