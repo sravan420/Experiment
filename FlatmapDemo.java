@@ -38,6 +38,9 @@ public class FlatmapDemo {
         System.out.println(min.orElse(0));
         System.out.println(max.getAsInt());
         
+        int changedarray[]={100,300,400};
+        OptionalInt minim= IntStream.of(changedarray).min();
+        System.out.println(min);
         
         System.out.println("hey add some changes for rebase from github");
          System.out.println("hey adding some changes for rebase from github");
